@@ -17,8 +17,8 @@ setInterval(() => {
   });
 }, 1000);
 
-function playSound(Beep) {
-  const audio = new Audio(Sounds/Beep);
+function playSound(beep) {
+  const audio = new Audio(Sounds/beep);
   audio.volume = document.getElementById("volumeControl").value;
   audio.play();
 }
