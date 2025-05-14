@@ -19,7 +19,19 @@
     </header>
     <main>
         <section>
-  <p> How tf do I put a clock here using js</p>
+  <input type="time" id="alarmTime">
+<input type="text" id="manualTime" placeholder="HH:MM">
+<button onclick="setAlarm()">Set Alarm</button>
+
+<select id="soundSelect">
+  <option value="sound1.mp3">Beep</option>
+  <option value="sound2.mp3">Chime</option>
+</select>
+
+<input type="range" id="volumeControl" min="0" max="1" step="0.01">
+
+<ul id="alarmList"></ul>
+
         </section>
     </main>
     <footer>
